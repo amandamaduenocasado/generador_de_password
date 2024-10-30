@@ -8,10 +8,15 @@
   }
   
   body {
-    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0;
-    padding: 0;
-    font-family: "Lexend Deca", sans-serif;
+    min-height: 100vh;
+    color: #ffffff;
+    background-color: #110032;
+    font-family: 'DM Mono', monospace;
+  
   }
   
   a {
@@ -23,6 +28,71 @@
     list-style: none;
     margin: 0;
     margin-bottom: 0;
+
+  }
+
+  .card {
+    background-color: #110032;
+    border-radius: 15px;
+    padding: 25px;
+    width: 400px;
+  }
+
+  .password-box {
+    padding-left: 20px;
+    background-color: #241442;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  .text-level {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+
+  .button-box {
+    background-color: #241442;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .button-text, .button-text-2 { 
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .bar {
+    -webkit-appearance: none;
+    outline: none;
+    width: 80%;
+    height: 2px;
+    background: rgb(255, 255, 255);
   
   }
-  
+
+  .cta {
+    background-color: #a200d4;
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    letter-spacing: 3px;
+  }
+
+
