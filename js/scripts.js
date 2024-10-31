@@ -14,8 +14,6 @@ lengthRange.addEventListener('input', () => {
 
 generateCta.addEventListener('click', () => {
     createPassword = ''; 
-    array.length = 0; 
-
 
     const passwordLength = lengthRange.value;
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()';
