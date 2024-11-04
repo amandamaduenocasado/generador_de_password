@@ -33,7 +33,6 @@
 
   .card {
     background-color: #110032;
-    border-radius: 15px;
     padding: 25px;
     width: 400px;
   }
@@ -41,7 +40,7 @@
   .password-box {
     padding-left: 20px;
     background-color: #241442;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 15px;
     font-size: 15px;
     font-weight: 400;
@@ -56,7 +55,7 @@
 
   .button-box {
     background-color: #241442;
-    border-radius: 10px;
+    border-radius: 5px;
     padding-left: 15px;
     padding-right: 15px;
     font-size: 18px;
@@ -74,25 +73,46 @@
 
   .bar {
     -webkit-appearance: none;
-    outline: none;
     width: 80%;
     height: 2px;
-    background: rgb(255, 255, 255);
+    accent-color: #a200d4;
   
   }
 
   .cta {
-    background-color: #a200d4;
+    background-image: linear-gradient(to right, #7944e7, #8300ab);
     color: white;
     font-size: 13px;
     font-weight: 400;
-    border-radius: 10px;
+    border-radius: 5px;
     padding-top: 15px;
     padding-bottom: 15px;
     display: block;
     margin: 0 auto;
     width: 100%;
     letter-spacing: 3px;
+    border: none;
   }
 
+  .uppercase-box, .lowercase-box, .numbers-box, .symbols-box {
+    padding-left: 20px;
+    background-color: #241442;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-right: 15px;
+  }
+
+  .uppercase-text, .lowercase-text, .numbers-text, .symbols-text {
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+.uppercasebox, .lowercasebox, .numbersbox, .symbolsbox {
+
+}
 
